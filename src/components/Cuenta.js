@@ -57,7 +57,7 @@ export default class Cuenta extends Component {
                 minLength={5}
                 required
               />
-              <label for="clave">Clave</label>
+              <label htmlFor="clave">Clave</label>
               <MsgValidate />
             </div>
           </div>
@@ -71,7 +71,7 @@ export default class Cuenta extends Component {
                 minLength={1}
                 required
               />
-              <label for="banco">Banco</label>
+              <label htmlFor="banco">Banco</label>
               <MsgValidate />
             </div>
           </div>

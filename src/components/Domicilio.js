@@ -57,7 +57,7 @@ export default class Domicilio extends Component {
                 minLength={5}
                 required
               />
-              <label for="calle">Calle</label>
+              <label htmlFor="calle">Calle</label>
               <MsgValidate />
             </div>
           </div>
@@ -71,7 +71,7 @@ export default class Domicilio extends Component {
                 minLength={1}
                 required
               />
-              <label for="num_ext">Num Ext</label>
+              <label htmlFor="num_ext">Num Ext</label>
               <MsgValidate />
             </div>
 
@@ -83,7 +83,7 @@ export default class Domicilio extends Component {
                 className="validate"
                 minLength={1}
               />
-              <label for="num_int">Num Int</label>
+              <label htmlFor="num_int">Num Int</label>
               <MsgValidate />
             </div>
 
@@ -96,7 +96,7 @@ export default class Domicilio extends Component {
                 min={1}
                 required
               />
-              <label for="cp">C.P</label>
+              <label htmlFor="cp">C.P</label>
               <MsgValidate />
             </div>
           </div>
@@ -111,7 +111,7 @@ export default class Domicilio extends Component {
                 minLength={5}
                 required
               />
-              <label for="colonia">Colonia</label>
+              <label htmlFor="colonia">Colonia</label>
               <MsgValidate />
             </div>
 
@@ -124,7 +124,7 @@ export default class Domicilio extends Component {
                 minLength={5}
                 required
               />
-              <label for="ciudad">Ciudad</label>
+              <label htmlFor="ciudad">Ciudad</label>
               <MsgValidate />
             </div>
           </div>
@@ -139,7 +139,7 @@ export default class Domicilio extends Component {
                 minLength={5}
                 required
               />
-              <label for="estado">Estado</label>
+              <label htmlFor="estado">Estado</label>
               <MsgValidate />
             </div>
             <div className="input-field col s6">
@@ -151,7 +151,7 @@ export default class Domicilio extends Component {
                 minLength={5}
                 required
               />
-              <label for="pais">Pais</label>
+              <label htmlFor="pais">Pais</label>
               <MsgValidate />
             </div>
           </div>

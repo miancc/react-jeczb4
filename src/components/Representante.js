@@ -61,7 +61,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="nombre">Nombre</label>
+              <label htmlFor="nombre">Nombre</label>
               <MsgValidate />
             </div>
           </div>
@@ -87,7 +87,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+              <label htmlFor="fecha_nacimiento">Fecha de Nacimiento</label>
               <MsgValidate />
             </div>
           </div>
@@ -102,7 +102,7 @@ export default class Representante extends Component {
                 minLength={2}
                 required
               />
-              <label for="entidad_federativa">Entidad Federativa</label>
+              <label htmlFor="entidad_federativa">Entidad Federativa</label>
               <MsgValidate />
             </div>
 
@@ -115,7 +115,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="rfc">País de Nacimiento</label>
+              <label htmlFor="rfc">País de Nacimiento</label>
               <MsgValidate />
             </div>
           </div>
@@ -130,7 +130,7 @@ export default class Representante extends Component {
                 minLength={2}
                 required
               />
-              <label for="nacionalidad">Nacionalidad</label>
+              <label htmlFor="nacionalidad">Nacionalidad</label>
               <MsgValidate />
             </div>
 
@@ -143,7 +143,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="rfc">CURP</label>
+              <label htmlFor="rfc">CURP</label>
               <MsgValidate />
             </div>
           </div>
@@ -158,7 +158,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="regimen_fiscal ">RFC</label>
+              <label htmlFor="regimen_fiscal ">RFC</label>
               <MsgValidate />
             </div>
             <div className="input-field col s6">
@@ -170,7 +170,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="estado_civil">Estado Civil</label>
+              <label htmlFor="estado_civil">Estado Civil</label>
               <MsgValidate />
             </div>
           </div>
@@ -185,7 +185,7 @@ export default class Representante extends Component {
                 className="validate"
                 required
               />
-              <label for="telefono">Telefóno</label>
+              <label htmlFor="telefono">Telefóno</label>
               <MsgValidate />
             </div>
             <div className="input-field col s6">
@@ -197,7 +197,7 @@ export default class Representante extends Component {
                 minLength={5}
                 required
               />
-              <label for="correo">Correo</label>
+              <label htmlFor="correo">Correo</label>
               <MsgValidate />
             </div>
           </div>
@@ -212,7 +212,7 @@ export default class Representante extends Component {
                 className="validate"
                 required
               />
-              <label for="telefono">Identificación</label>
+              <label htmlFor="telefono">Identificación</label>
               <MsgValidate />
             </div>
           </div>

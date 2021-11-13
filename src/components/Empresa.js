@@ -61,7 +61,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="razon_social">Razon Social</label>
+              <label htmlFor="razon_social">Razon Social</label>
               <MsgValidate />
             </div>
           </div>
@@ -75,7 +75,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="nombre_comercial ">Nombre Comercial </label>
+              <label htmlFor="nombre_comercial ">Nombre Comercial </label>
               <MsgValidate />
             </div>
 
@@ -88,7 +88,7 @@ export default class Empresa extends Component {
                 minLength={2}
                 required
               />
-              <label for="nacionalidad">Nacionalidad</label>
+              <label htmlFor="nacionalidad">Nacionalidad</label>
               <MsgValidate />
             </div>
           </div>
@@ -103,7 +103,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="fecha_constitución">Fecha de Constitución</label>
+              <label htmlFor="fecha_constitución">Fecha de Constitución</label>
               <MsgValidate />
             </div>
 
@@ -116,7 +116,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="rfc">RFC</label>
+              <label htmlFor="rfc">RFC</label>
               <MsgValidate />
             </div>
           </div>
@@ -131,7 +131,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="regimen_fiscal ">Régimen Fiscal</label>
+              <label htmlFor="regimen_fiscal ">Régimen Fiscal</label>
               <MsgValidate />
             </div>
             <div className="input-field col s6">
@@ -143,7 +143,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="industria">Industria</label>
+              <label htmlFor="industria">Industria</label>
               <MsgValidate />
             </div>
           </div>
@@ -158,7 +158,7 @@ export default class Empresa extends Component {
                 className="validate"
                 required
               />
-              <label for="telefono">Telefóno</label>
+              <label htmlFor="telefono">Telefóno</label>
               <MsgValidate />
             </div>
             <div className="input-field col s6">
@@ -170,7 +170,7 @@ export default class Empresa extends Component {
                 minLength={5}
                 required
               />
-              <label for="correo">Correo</label>
+              <label htmlFor="correo">Correo</label>
               <MsgValidate />
             </div>
           </div>
